@@ -1,0 +1,21 @@
+{
+  "id": "spellChecker",
+  "name": "Spell Checker",
+  "description": "Check spelling locally and copy suggested corrections",
+  "version": "1.0.0",
+  "author": "Local",
+  "icon": "spellcheck",
+  "type": "launcher",
+  "capabilities": [
+    "spell-check"
+  ],
+  "component": "./SpellChecker.qml",
+  "settings": "./SpellCheckerSettings.qml",
+  "trigger": "sp:",
+  "viewMode": "list",
+  "viewModeEnforced": false,
+  "permissions": [
+    "settings_read",
+    "settings_write"
+  ]
+}
